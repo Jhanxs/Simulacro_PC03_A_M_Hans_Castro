@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/idMenu" android:title="@string/txt_menu" />
-    <item android:id="@+id/idMenuCrudRevista" android:title="@string/txt_menu_actualiza_revista" />
+    <item android:id="@+id/idMenuCrudUsuario" android:title="@string/txt_menu_actualiza_usuario" />
     <item android:id="@+id/idMenuCrudAutor" android:title="@string/txt_menu_actualiza_autor" />
 
 </menu>

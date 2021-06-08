@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.cibertec.simulacro_pc03.entity.Usuario;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -26,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.idMenuCrudRevista) {
-            Intent intent = new Intent(this, RevistaCrudListaActivity.class);
+        if (id == R.id.idMenuCrudUsuario) {
+            Intent intent = new Intent(this, UsuarioCrudListaActivity.class);
             startActivity(intent);
             return true;
         }
