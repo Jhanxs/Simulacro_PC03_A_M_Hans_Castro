@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Simulacro_PC03</string>
+    <string name="txt_menu">Menú</string>
+    <string name="txt_menu_actualiza_revista">Actualiza Revista</string>
+    <string name="txt_menu_actualiza_autor">Actualiza Autor</string>
+</resources>
